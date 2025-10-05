@@ -424,3 +424,19 @@ position: absolute;
 .block-button a:hover {
 	text-decoration: underline;
 }
+
+/* Responsive */
+@media (max-width: 900px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-links-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-cities {
+    text-align: left;
+    font-size: 18px;
+  }
+}
